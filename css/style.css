@@ -7,10 +7,10 @@
 
 body {
 
-  background-color: hsl(30, 54%, 90%);
-  line-height: 1.6;
+  background-color: #f3e6d8;
+  line-height: 1.7;
   font-family: Outfit;
-  font-size: 16px;
+  font-size: 1.8rem;
   color: #5f574e;
 }
 
@@ -45,6 +45,7 @@ h3 {
   max-width: 68rem;
   background-color: #ffffff;
   padding: 4rem;
+  padding-bottom: 0;
 
   display: flex;
   align-items: center;
@@ -62,7 +63,19 @@ h3 {
 h1 {
   color: #302d2c;
   font-weight: 400;
-  font-size: 3.6rem;
+  font-size: 3.8rem;
+}
+
+
+
+.preparation-font {
+  font-family: outfit;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.8rem;
 }
 
 h1,
@@ -70,7 +83,7 @@ h2,
 h3,
 h4,
 h5 {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.2rem;
 
 
   margin-left: 0;
@@ -79,7 +92,7 @@ h5 {
 
 }
 
- 
+
 
 h2,
 h3,
@@ -138,14 +151,14 @@ h5 {
 
 .first-list-container ul {
   margin: 0;
-  padding-left: 2rem;
+  padding-left: 2.2rem;
 
 }
 
 
 .first-list-container li {
   margin-bottom: 0rem;
-  padding: 0 0 0.9rem 0;
+  padding: 0 0 0.8rem 1.7rem;
   /* padding-left: 0; */
 }
 
@@ -168,7 +181,9 @@ h5 {
 .second-list-container {
   width: 95%;
   padding: 0;
-  margin-bottom: 2.1rem;
+  margin-bottom: 3rem;
+  /* 2.1rem  */
+
   border-bottom: 1px solid #e4ded8;
 }
 
@@ -186,13 +201,13 @@ h5 {
 
 
 .second-list-container ul {
-  padding-left: 0;
-  margin-bottom: 1rem;
-  margin-left: 1.2rem
+  padding-left: 0.8rem;
+  margin-bottom: 2.2rem;
+  /* margin-left: 1.2rem */
 }
 
 .second-list-container li {
-  padding-bottom: 1rem;
+  padding: 0 0 1rem 1.5rem;
 }
 
 
@@ -212,20 +227,23 @@ h5 {
 
 .third-list-container {
   border-bottom: 1px solid #e4ded8;
-  margin-bottom: 2.1rem;
+  margin-bottom: 3rem;
 }
 
 .third-list-container ol {
   margin-left: 2.1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.2rem;
 
 
 }
 
 
 .third-list-container li {
-  padding-left: 0.6rem;
-  padding-bottom: 1rem;
+
+  padding: 0 0 1rem 1.7rem;
+
+  /* padding-left: 0.6rem; */
+  /* padding-bottom: 1rem; */
 }
 
 p,
@@ -270,6 +288,7 @@ li {
 .image {
   display: inline-block;
   width: 60rem;
+  height: 28.4rem;
   margin-bottom: 3rem;
 
 
@@ -283,10 +302,14 @@ li {
 .last-paragraph {
   margin-bottom: 2rem;
   padding: 0;
-  margin-right: 5rem;
+  margin-right: 9.2rem;
 
   /* font-family: outfit; */
 }
+
+/* .table-container {
+  margin-bottom: 20rem;
+} */
 
 
 .nutrition-table {
@@ -312,7 +335,7 @@ td {
 }
 
 .nutrition-table td {
-  padding: 0.8rem 9.6rem 0.5rem 2rem;
+  padding: 0.8rem 9.6rem 2.3rem 2rem;
 
   /* border-bottom: 20px; */
 
