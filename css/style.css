@@ -181,7 +181,7 @@ h5 {
 .second-list-container {
   width: 95%;
   padding: 0;
-  margin-bottom: 3rem;
+  margin-bottom: 2.8rem;
   /* 2.1rem  */
 
   border-bottom: 1px solid #e4ded8;
@@ -227,7 +227,7 @@ h5 {
 
 .third-list-container {
   border-bottom: 1px solid #e4ded8;
-  margin-bottom: 3rem;
+  margin-bottom: 2.8rem;
 }
 
 .third-list-container ol {
@@ -335,7 +335,7 @@ td {
 }
 
 .nutrition-table td {
-  padding: 0.8rem 9.6rem 1.9rem 2rem;
+  padding: 0.8rem 9.6rem 1rem 2rem;
 
   /* border-bottom: 20px; */
 
